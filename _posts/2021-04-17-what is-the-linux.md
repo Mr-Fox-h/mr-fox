@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is the linux
-permalink: /mr-fox-h/posts/what-is-the-linux/
+permalink: /posts/what-is-the-linux/
 ---
 
 لینوکس یک سیستم عامل قدرتمند در عرصه هک و امنیت شبکه و سرور و ... بکار میرود.

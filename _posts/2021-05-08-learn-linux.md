@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learning Linux
-permalink: /mr-fox-h/posts/learn-linux/
+permalink: /posts/learn-linux/
 ---
 
 سلام دوستان
