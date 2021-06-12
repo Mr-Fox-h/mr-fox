@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  height: fill-content;
+  background: #1d1e3c url(//cdn.bayan.ir/blog/templates/359/bg.jpg) top fixed
+    no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Intro {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Title {
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  background: url(//cdn.bayan.ir/blog/templates/359/blackdot3.png);
+  border-radius: 1rem;
+  backdrop-filter: blur(1rem);
+  text-shadow: 0px 0px 5px #666;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.849), 0 0 0.5rem rgba(0, 0, 0, 0.849);
+}
+.Title h4 {
+  display: flex;
+  justify-content: center;
+}
+.Hacker {
+  min-width: 100%;
+  min-height: 50%;
+  display: flex;
+  flex-direction: row;
+  color: rgb(160, 160, 160);
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  background: black;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.849), 0 0 0.5rem rgba(0, 0, 0, 0.849);
+}
+.Hacker img {
+  max-height: 30rem;
+  padding: 1rem;
+  flex: 0;
+}
+.Hacker div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.Security {
+  min-width: 100%;
+  min-height: 50%;
+  display: flex;
+  flex-direction: row;
+  color: rgb(160, 160, 160);
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  background: black;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.849), 0 0 0.5rem rgba(0, 0, 0, 0.849);
+}
+.Security img {
+  max-height: 25rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  flex: 0;
+}
+.Security div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.Programmer {
+  min-width: 100%;
+  min-height: 10%;
+  display: flex;
+  flex-direction: row;
+  color: rgb(160, 160, 160);
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  background: black;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.849), 0 0 0.5rem rgba(0, 0, 0, 0.849);
+}
+.Programmer img {
+  max-height: 30rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  flex: 0;
+}
+.Programmer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.Linux {
+  min-width: 100%;
+  min-height: 10%;
+  display: flex;
+  flex-direction: row;
+  color: rgb(160, 160, 160);
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  background: black;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.849), 0 0 0.5rem rgba(0, 0, 0, 0.849);
+}
+.Linux img {
+  max-height: 25rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  flex: 0;
+}
+.Linux div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}

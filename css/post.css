@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  min-height: 300vh;
+  background: #1d1e3c url(//cdn.bayan.ir/blog/templates/359/bg.jpg) top fixed;
+  display: flex;
+}
+code {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: rgb(243, 196, 108);
+  font-family: "Fira Code", monospace;
+}
+pre {
+  width: 100%;
+  background: url(//cdn.bayan.ir/blog/templates/359/blackdot3.png);
+  border-radius: 0.6rem;
+  padding: 5px;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 5px;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.849), 0 0 0.5rem rgba(0, 0, 0, 0.849);
+}
+.Posts {
+  width: 1200px;
+  min-height: 50%;
+  margin: auto;
+  position: absolute;
+  left: 3rem;
+  top: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1;
+}
+.Post {
+  width: 950px;
+  height: fit-content;
+  color: #ddd;
+  font-family: "Dancing Script", cursive;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  background: url(//cdn.bayan.ir/blog/templates/359/blackdot3.png);
+  border-radius: 1rem;
+  backdrop-filter: blur(1rem);
+  text-shadow: 0px 0px 5px #666;
+  font-weight: bold;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.849), 0 0 0.5rem rgba(0, 0, 0, 0.849);
+  flex: 5;
+}
+.Post p {
+  font-family: "Roboto Slab", serif;
+  direction: rtl;
+}
+.Post h2 {
+  color: white;
+  font-size: 3rem;
+}
+.Post h2:hover {
+  text-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.849),
+    0 0 0.5rem rgba(255, 255, 255, 0.849);
+}
+.Post h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.7rem;
+  direction: rtl;
+  line-height: 1.4em;
+  color: rgb(243, 196, 108);
+  padding-bottom: 3px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 15px 15px 5px 15px;
+  text-shadow: 0px 0px 5px #666;
+}
+.Post img {
+  max-height: 30rem;
+}
+.History {
+  width: auto;
+  height: 30rem;
+  color: rgb(243, 196, 108);
+  padding: 1%;
+  font-family: "Dancing Script", cursive;
+  font-size: 1rem;
+  background: url(//cdn.bayan.ir/blog/templates/359/blackdot3.png);
+  border-radius: 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.849), 0 0 0.5rem rgba(0, 0, 0, 0.849);
+  backdrop-filter: blur(1rem);
+  flex: 1;
+}
+.History a {
+  color: white;
+}
+.History a:hover {
+  text-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.849),
+    0 0 0.5rem rgba(255, 255, 255, 0.849);
+}
+.History div {
+  min-width: 1rem;
+  height: 20rem;
+  overflow: hidden;
+}

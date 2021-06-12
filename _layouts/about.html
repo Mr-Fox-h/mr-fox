@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="programing, hacking, learn" />
+    <meta name="author" content="Meisam Heidari" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{site.baseurl}}/css/about.css" />
+    <title>Mr.Fox</title>
+  </head>
+  <body>
+    {% include nav.html %}
+    <main>
+      <section class="Posts">
+        <div class="Post">
+          <h2 href="{{page.url}}">{{page.title}}</h2>
+          <hr />
+          <br />
+          <div class="About">
+            <p>{{content}}</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    {% include end.html %}
+  </body>
+</html>
