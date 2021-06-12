@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   برای دریافت اطلاعاتی در رابطه با سایت شما می توانید وارد بخش About شده
   و از این سایت یک سری اطلاعات بدست آورید.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mr-fox-h.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 aparat_username: Aparat
 gitlab_username: Gitlab
 github_username: Github
