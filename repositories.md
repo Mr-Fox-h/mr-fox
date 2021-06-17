@@ -1,4 +1,4 @@
 ---
 layout: repositories
-permalink: /mr-fox/repositories/
+permalink: /repositories/
 ---

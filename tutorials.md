@@ -1,4 +1,4 @@
 ---
 layout: tutorials
-permalink: /mr-fox/posts/
+permalink: /posts/
 ---

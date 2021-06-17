@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-permalink: /mr-fox/about/
+permalink: /about/
 image: /assets/img/about-page/mr-fox.jpg
 ---
 
