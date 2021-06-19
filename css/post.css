@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 main {
-  min-height: 400vh;
+  min-height: 200vh;
   background: #1d1e3c url(//cdn.bayan.ir/blog/templates/359/bg.jpg) top fixed;
   display: flex;
 }
@@ -32,9 +32,6 @@ pre {
   width: 1200px;
   min-height: 50%;
   margin: auto;
-  position: absolute;
-  left: 3rem;
-  top: 8rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

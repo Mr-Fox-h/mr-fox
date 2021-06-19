@@ -17,9 +17,6 @@ main {
   display: flex;
   flex-direction: row;
   margin: auto;
-  position: absolute;
-  left: 3rem;
-  top: 8rem;
   z-index: 1;
 }
 .Gitlab,
