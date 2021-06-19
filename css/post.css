@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 main {
-  min-height: 300vh;
+  min-height: 400vh;
   background: #1d1e3c url(//cdn.bayan.ir/blog/templates/359/bg.jpg) top fixed;
   display: flex;
 }
@@ -59,6 +59,7 @@ pre {
 .Post p {
   font-family: "Roboto Slab", serif;
   direction: rtl;
+  padding-bottom: 1rem;
 }
 .Post h2 {
   color: white;
