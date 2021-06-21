@@ -40,6 +40,11 @@ main {
 .Post h2 {
   font-size: 2rem;
   text-align: center;
+  transition: all 0.3s ease 0s;
+}
+.Post h2:hover {
+  text-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.849),
+    0 0 0.5rem rgba(255, 255, 255, 0.849);
 }
 .About {
   display: flex;
@@ -47,4 +52,8 @@ main {
 .About img {
   height: 20rem;
   border-radius: 1rem;
+  transition: all 0.3s ease 0s;
+}
+.About img:hover {
+  box-shadow: 0 0 2rem #1d1e3c;
 }

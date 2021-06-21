@@ -37,9 +37,18 @@ main {
   padding: 1rem;
   text-align: center;
 }
-.Title h2:hover {
+.Title h1 {
+  transition: all 0.3s ease 0s;
+}
+.Title h1:hover {
   text-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.849),
     0 0 0.5rem rgba(255, 255, 255, 0.849);
+}
+.Title h2 {
+  transition: all 0.3s ease 0s;
+}
+.Title h2:hover {
+  text-shadow: 0 0 1rem rgba(0, 0, 0, 0.849), 0 0 1rem rgba(0, 0, 0, 0.849);
 }
 .Post {
   min-width: 20rem;

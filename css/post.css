@@ -61,6 +61,7 @@ pre {
 .Post h2 {
   color: white;
   font-size: 3rem;
+  transition: all 0.3s ease 0s;
 }
 .Post h2:hover {
   text-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.849),
@@ -97,6 +98,7 @@ pre {
 }
 .History a {
   color: white;
+  transition: all 0.3s ease 0s;
 }
 .History a:hover {
   text-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.849),
