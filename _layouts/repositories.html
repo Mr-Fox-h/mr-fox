@@ -1,41 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="programing, hacking, learn" />
     <meta name="author" content="Meisam Heidari" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{site.baseurl}}/css/repositories.css" />
-    <title>Mr.Fox</title>
-    <link rel="shortcut icon" href="/assets/img/nav-image/mr-fox.png" />
+    <meta
+      name="keywords"
+      content="هک و امنیت شبکه,امنیت سایبری,مهندسی اجتماعی,تست و نفوذ,هک,امنیت شبکه,hack,hacker,hacker tools,کامپیوتر,نفوذ به سیستم,لینوکس,سیستم عامل,حمله سایبری,سخت افزار,os,windows,mac,مک,ویندوز,هک در ایران,ایران هکر,مرد میدان,mr.fox,MR.FOX,Mr.Fox,Metasploitable,metasploitable,Metasploit,zap,MITM,mitm,man in the middel,man,آموزش,آموزش های لینوکس,آموزش لینوکس,آموزش ترمینال,آموزش کار با صفحه ترمینال,Python,python,آموزش پایتون,زبان برنامه نویسی پایتون,پایتون چیست"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-width: 500px)"
+      href="{{site.baseurl}}/style/repositories.css"
+    />
+    <title>{{ site.title }}</title>
   </head>
+  {% include nav.html %}
   <body>
-    {% include nav.html %}
     <main>
       <section class="Repositories">
-        <div class="Gitlab">
-          <img
-            class="Photo_git"
-            src="/assets/img/repositories-imge/gitlab.png"
-            alt="Github"
-          />
-          <a href="https://gitlab.com/mr-fox-h"
-            ><button class="See">Gitlab Repositories</button></a
+        <h1>Repositories</h1>
+        <button>
+          <a
+            class="Git_Link"
+            href="https://gitlab.com/mr-fox-h"
+            target="_blank"
           >
-        </div>
-        <div class="Github">
-          <img
-            class="Photo_git"
-            src="/assets/img/repositories-imge/githup.png"
-            alt="Github"
-          />
-          <a href="https://github.com/Mr-Fox-h"
-            ><button class="See">GitHub Repositories</button></a
+            <ion-icon name="logo-gitlab" class="Logo"></ion-icon>
+            <h2>Gitlab</h2>
+          </a>
+        </button>
+        <button>
+          <a
+            class="Git_Link"
+            href="https://github.com/Mr-Fox-h"
+            target="_blank"
           >
-        </div>
+            <ion-icon name="logo-github" class="Logo"></ion-icon>
+            <h2>GitHub</h2>
+          </a>
+        </button>
+        <button>
+          <a
+            class="Git_Link"
+            href="https://bitbucket.org/mr-fox-h/"
+            target="_blank"
+          >
+            <ion-icon name="logo-bitbucket" class="Logo"></ion-icon>
+            <h2>Bitbucket</h2>
+          </a>
+        </button>
       </section>
     </main>
-    {% include end.html %}
+    <hr />
+    {% include items.html %}
   </body>
 </html>

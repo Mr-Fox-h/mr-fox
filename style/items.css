@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400&family=Sora:wght@200;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 10rem;
+  margin-left: 10rem;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+img:hover {
+  background: #14a76c;
+  box-shadow: 0px 0px 0px #14a76c, 0 0 20px #14a76c;
+}
+
+hr {
+  color: #ff652f;
+}
+
+h6 {
+  color: #969696;
+  transition: 0.3s;
+}
+
+h6:hover {
+  text-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.849),
+    0 0 0.5rem rgba(255, 255, 255, 0.849);
+}
+
+.Description {
+  color: #969696;
+  max-width: 20rem;
+  direction: rtl;
+}
+
+.Menu {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu li {
+  position: absolute;
+  left: 0;
+  list-style: none;
+  transform-origin: 100px;
+  transition: 0.5s;
+  transition-delay: calc(0.1s * var(--i));
+  transform: rotate(0deg) translateX(80px);
+}
+
+.Menu.active li {
+  transform: rotate(calc(360deg / 4 * var(--i)));
+}
+
+.Menu li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #ff652f;
+  background: #272727;
+  box-shadow: 0 0 4px black;
+  transform: rotate(calc(360deg / -4 * var(--i)));
+  transition: 0.3s;
+}
+
+.Menu li a:hover {
+  color: #ffe400;
+  background: #14a76c;
+  box-shadow: 0px 0px 0px #14a76c, 0 0 20px #14a76c;
+}
+
+.Menu_Items {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  color: #ff652f;
+  background: #272727;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 4px black;
+  font-size: 1.75em;
+  transition: 0.3s;
+}
+
+.Menu_Items:hover {
+  color: #ffe400;
+  background: #14a76c;
+  box-shadow: 0px 0px 0px #14a76c, 0 0 20px #14a76c;
+}
+
+.Menu.active .Menu_Items {
+  transform: rotate(135deg);
+  border-radius: 50%;
+}

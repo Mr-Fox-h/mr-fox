@@ -1,4 +1,0 @@
----
-layout: tutorials
-permalink: /posts/
----

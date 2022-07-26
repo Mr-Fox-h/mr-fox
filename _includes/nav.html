@@ -1,25 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Meisam Heidari" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{site.baseurl}}/css/nav.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width: 500px)"
+      href="{{site.baseurl}}/style/nav.css"
+    />
   </head>
   <body>
-    <header>
-      <a href="/"
-        ><img class="Logo" src="/assets/img/nav-image/mr-fox.png" alt="Mr.Fox"
-      /></a>
-      <nav>
-        <ul class="Nav_links">
-          <li><a href="/repositories/" target="_blank">Repositories</a></li>
-          <li><a href="/posts/" target="_blank">Tutorials</a></li>
-          <li><a href="http://mr-fox.blog.ir/" target="_blank">Blog</a></li>
-          <li><a href="/about/" target="_blank">About</a></li>
-        </ul>
-      </nav>
-      <a class="Cta" href="#"><button>Donate</button></a>
-    </header>
+    <div class="Navingation">
+      <div class="Menu_Items_Nav"></div>
+      <ul>
+        <li class="List">
+          <a href="/">
+            <span class="Icon"><ion-icon name="logo-firefox"></ion-icon></span>
+            <span class="Text">Home</span>
+          </a>
+        </li>
+        <li class="List">
+          <a href="#" target="_blank">
+            <span class="Icon"><ion-icon name="wallet"></ion-icon></span>
+            <span class="Text">Fund</span>
+          </a>
+        </li>
+        <li class="List">
+          <a href="/posts/">
+            <span class="Icon"><ion-icon name="mail"></ion-icon></span>
+            <span class="Text">Post</span>
+          </a>
+        </li>
+        <li class="List">
+          <a href="#">
+            <span class="Icon"
+              ><ion-icon name="document-text-outline"></ion-icon
+            ></span>
+            <span class="Text">Documents</span>
+          </a>
+        </li>
+        <li class="List">
+          <a href="/repositories/">
+            <span class="Icon"
+              ><ion-icon name="git-merge-outline"></ion-icon
+            ></span>
+            <span class="Text">Repositories</span>
+          </a>
+        </li>
+        <li class="List">
+          <a href="https://mr-fox.blog.ir/">
+            <span class="Icon"><ion-icon name="desktop"></ion-icon></span>
+            <span class="Text">Blog</span>
+          </a>
+        </li>
+        <li class="List">
+          <a href="https://discord.gg/QmpvtFkV" target="_blank">
+            <span class="Icon"><ion-icon name="logo-discord"></ion-icon></span>
+            <span class="Text">Discord</span>
+          </a>
+        </li>
+        <li class="List">
+          <a href="/about">
+            <span class="Icon"><ion-icon name="person"></ion-icon></span>
+            <span class="Text">About</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script>
+      const Menu_Items_Nav = document.querySelector(".Menu_Items_Nav");
+      const Navingation = document.querySelector(".Navingation");
+      Menu_Items_Nav.onclick = function () {
+        Navingation.classList.toggle("open");
+      };
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

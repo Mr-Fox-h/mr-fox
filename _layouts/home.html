@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="programing, hacking, learn" />
     <meta name="author" content="Meisam Heidari" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,51 +9,81 @@
       name="keywords"
       content="هک و امنیت شبکه,امنیت سایبری,مهندسی اجتماعی,تست و نفوذ,هک,امنیت شبکه,hack,hacker,hacker tools,کامپیوتر,نفوذ به سیستم,لینوکس,سیستم عامل,حمله سایبری,سخت افزار,os,windows,mac,مک,ویندوز,هک در ایران,ایران هکر,مرد میدان,mr.fox,MR.FOX,Mr.Fox,Metasploitable,metasploitable,Metasploit,zap,MITM,mitm,man in the middel,man,آموزش,آموزش های لینوکس,آموزش لینوکس,آموزش ترمینال,آموزش کار با صفحه ترمینال,Python,python,آموزش پایتون,زبان برنامه نویسی پایتون,پایتون چیست"
     />
-    <link rel="stylesheet" href="{{site.baseurl}}/css/home.css" />
-    <title>Mr.Fox</title>
-    <link rel="shortcut icon" href="/assets/img/nav-image/mr-fox.png" />
-    <audio controls autoplay hidden>
-      <source src="/assets/music/09 Darkside.mp3" type="audio/ogg" />
-    </audio>
+    <link
+      rel="stylesheet"
+      media="(min-width: 500px)"
+      href="{{site.baseurl}}/style/home.css"
+    />
+    <title>{{ site.title }}</title>
   </head>
+  {% include nav.html %}
   <body>
-    {% include nav.html %}
     <main>
-      <section class="Intro">
-        <aside class="Title">
+      <div class="Cool_View">
+        <div class="Title">
+          <h1>Mr.Fox</h1>
           <h1>Be a Programmer, hacker ...</h1>
-          <h4>Lets be better ...</h4>
-        </aside>
-        <div class="Hacker">
-          <div>
-            <h2>Be a Hacker:</h2>
-            <img src="/assets/img/home-page/Hacker.png" alt="Hacker" />
-            <p>آموزش های کامل و جامع هک</p>
+          <h6>Lets be better ...</h6>
+          <button>
+            <a class="Button" href="#">
+              <ion-icon class="Money" name="diamond"></ion-icon>
+              <h3>Donate</h3>
+            </a>
+          </button>
+        </div>
+        <div class="Tag">
+          <div class="Icons">
+            <ion-icon class="Home_Logo" name="laptop-outline"></ion-icon>
+          </div>
+          <div class="Note">
+            <h2>Hack</h2>
+            <hr />
+            <p>آموزش های کامل و جامع هک و امنیت شبکه</p>
           </div>
         </div>
-        <div class="Security">
-          <div>
-            <h2>Be IT Man:</h2>
-            <p>آموزش های جامع امنیت شبکه</p>
+        <div class="Tag">
+          <div class="Note">
+            <h2>IT</h2>
+            <hr />
+            <p>IT آموزش های کامل و جامع در رابطه با</p>
           </div>
-          <img src="/assets/img/home-page/security.jpg" alt="Hacker" />
-        </div>
-        <div class="Linux">
-          <img src="/assets/img/home-page/Terminal.jpg" alt="Hacker" />
-          <div>
-            <h2>Linux:</h2>
-            <p>آموزش لینوکس</p>
+          <div class="Icons">
+            <ion-icon class="Home_Logo" name="lock-closed-outline"></ion-icon>
           </div>
         </div>
-        <div class="Programmer">
-          <div>
-            <h2>Programmer:</h2>
+        <div class="Tag">
+          <div class="Icons">
+            <ion-icon class="Home_Logo" name="logo-tux"></ion-icon>
+          </div>
+          <div class="Note">
+            <h2>Linux</h2>
+            <hr />
+            <p>آموزش کار با سیستم عامل لینوکس</p>
+          </div>
+        </div>
+        <div class="Tag">
+          <div class="Note">
+            <h2>Programming</h2>
+            <hr />
             <p>آموزش زبان های برنامه نویسی</p>
-            <img src="/assets/img/home-page/Programmer.png" alt="Hacker" />
+          </div>
+          <div class="Icons">
+            <ion-icon class="Home_Logo" name="code-slash-outline"></ion-icon>
           </div>
         </div>
-      </section>
+        <div class="Tag">
+          <div class="Icons">
+            <ion-icon class="Home_Logo" name="construct-outline"></ion-icon>
+          </div>
+          <div class="Note">
+            <h2>Devlog</h2>
+            <hr />
+            <p>ساخت نرم افزار ها و ایده های نو</p>
+          </div>
+        </div>
+      </div>
     </main>
-    {% include end.html %}
+    <hr />
+    {% include items.html %}
   </body>
 </html>

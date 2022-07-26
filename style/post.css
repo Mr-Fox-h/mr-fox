@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400&family=Sora:wght@200;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #272727;
+}
+
+main {
+  font-family: "JetBrains Mono", monospace;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background: #74747427;
+}
+
+hr {
+  color: #ff652f;
+}
+
+p {
+  color: #969696;
+  direction: rtl;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  transition: all 0.3s ease 0s;
+}
+
+h1:hover {
+  text-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.849),
+    0 0 0.5rem rgba(255, 255, 255, 0.849);
+}
+
+h3 {
+  color: #14a76c;
+  padding: 10px;
+  direction: rtl;
+  transition: 0.3s;
+}
+
+h3:hover {
+  text-decoration: underline double;
+  text-shadow: 0px 0px 0px #14a76c, 0 0 20px #14a76c;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+a:hover {
+  text-shadow: 0 0 10px white;
+}
+
+code {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #ffe400;
+  transition: all 0.3s ease 0s;
+}
+
+code:hover {
+  text-shadow: 0 0 10px #ffe400;
+}
+
+pre {
+  white-space: pre-wrap;
+  max-width: 100%;
+  height: auto;
+  background: url(//cdn.bayan.ir/blog/templates/359/blackdot3.png);
+  border-radius: 0.6rem;
+  padding: 5px;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.849), 0 0 0.5rem rgba(0, 0, 0, 0.849);
+}
