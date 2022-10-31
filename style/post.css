@@ -29,7 +29,6 @@ hr {
 
 p {
   color: #969696;
-  direction: rtl;
 }
 
 h1 {
@@ -46,7 +45,6 @@ h1:hover {
 h3 {
   color: #14a76c;
   padding: 10px;
-  direction: rtl;
   transition: 0.3s;
 }
 

@@ -1,0 +1,4 @@
+---
+layout: documents
+permalink: /documents/
+---

@@ -83,15 +83,18 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 15rem;
+  margin: 5rem;
   transition: 0.3s;
 }
 
 .Cool_View {
+  min-width: 734px;
+  min-height: 848px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 6rem;
 }
 
 .Tag {
@@ -101,7 +104,7 @@ button {
   height: auto;
   background: url(//cdn.bayan.ir/blog/templates/359/blackdot3.png);
   border-radius: 0.6rem;
-  padding: 5px;
+  padding: 1rem;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.849), 0 0 0.5rem rgba(0, 0, 0, 0.849);

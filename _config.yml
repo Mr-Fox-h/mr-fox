@@ -1,8 +1,7 @@
 title: Mr.Fox
 email: mr.fox@iran.ir
 description: >- # this means to ignore newlines until "baseurl:"
-  سایتی برای خواندن Devlog و خواندن Documents نرم افزارهای Mr.Fox.
-  سایتی برای هواداران IT و برنامه نویسی 🦊
+  I’m just a dude who’s trying his best to become a solid developer and gentle human.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mr-fox-h.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
