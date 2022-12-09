@@ -65,7 +65,7 @@ h6:hover {
 }
 
 .Menu.active li {
-  transform: rotate(calc(360deg / 4 * var(--i)));
+  transform: rotate(calc(360deg / 7 * var(--i)));
 }
 
 .Menu li a {
@@ -78,7 +78,7 @@ h6:hover {
   color: #ff652f;
   background: #272727;
   box-shadow: 0 0 4px black;
-  transform: rotate(calc(360deg / -4 * var(--i)));
+  transform: rotate(calc(360deg / -7 * var(--i)));
   transition: 0.3s;
 }
 
